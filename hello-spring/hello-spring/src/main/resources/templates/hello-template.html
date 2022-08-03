@@ -1,0 +1,10 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+    <p th:text="'hello ' + ${name}">hello! empty</p>
+    <!--hello! empty는 없어도 됌-->
+    <!-- 서버없이 내용을 볼 때, html markup해주는 사람이 적어주고 볼 수 있게 하는 것-->
+
+    <!--타임리프의 장점은 html을 그대로 쓰고, 서버없이 열어봐도 껍데기를 볼 수 있다.-->
+    <!--템플릿 엔진으로서 작동을 하면, 내용이 model에서 치환된다.-->
+    <!--model의 key값이 ${key}의 형태로 넘어간다.-->
+</body>
