@@ -28,7 +28,7 @@ class MemberServiceTest {
         memberService = new MemberService(memberRepository);
     }
 //    외부에서 넣어준다, Dependency Injection DI
-    
+
 
 
     @AfterEach
